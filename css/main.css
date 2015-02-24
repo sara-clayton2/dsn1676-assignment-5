@@ -20,6 +20,7 @@ body {
 .list { 
 	list-style-type: none;
 	background-color: #fff;
+	width: 100%;
 }
 
 .title { 
@@ -58,6 +59,7 @@ h2 {
 	font-weight: lighter;
 	font-family: Georgia, serif;
 	font-size: 1.25em;
+	width:100%;
 }
 
 .strikethrough { 
@@ -71,5 +73,10 @@ h2 {
 	border-radius: 5px;
 	height: 2.75em;
 	width: 2em;
-	color: #C8C8C8 ;
+	color: #C8C8C8;	
+	position: relative; 
+	float: right; 
+	margin: 2em;
+
 }
+
