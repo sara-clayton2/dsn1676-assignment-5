@@ -16,6 +16,7 @@ body {
 	border: 2px solid grey;
 	border-radius: 15px;
 	padding: 2em;
+	background-color: #e3e3e3;
 }
 
 .title { 
@@ -23,4 +24,17 @@ body {
 	font-family: Georgia, serif; 
 	display: block;
 	padding-bottom: .25em;
+}
+
+.grey { 
+		background-color: #e3e3e3;
+}
+
+.addbutton { 
+	border: 2px solid #A8A8A9;
+	border-radius: 8px;
+	padding: .5em 1.5em .5em 1.5em;
+	font-family: Georgia, serif;
+	font-size: 1em;
+	background-color: #B6B6B9;
 }

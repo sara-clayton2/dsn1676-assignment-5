@@ -17,7 +17,7 @@ $li.append($todoH2);
 $added.append($li);	
 $li.append($button);	
 
-$button.addClass('button');
+$button.addClass('addbutton');
 
  	
 });
