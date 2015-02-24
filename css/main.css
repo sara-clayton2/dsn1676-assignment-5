@@ -10,13 +10,10 @@ body {
  margin: 0;	
 }
 
-
 .pagestyle { 
-	margin: 5em;
 	border: 2px solid grey;
 	border-radius: 15px;
-	padding: 2em;
-	background-color: #e3e3e3;
+	margin: 3em;
 }
 
 .list { 
@@ -32,6 +29,8 @@ body {
 
 .grey { 
 	background-color: #e3e3e3;
+	padding: 2em;
+	border-radius: 15px 15px 0 0 ;
 }
 
 .addbutton { 
@@ -54,4 +53,13 @@ h2 {
 	font-family: Georgia, serif;
 }
 
+.strikethrough { 
+	text-decoration:line-through;
+	color: grey;
+}
 
+.white { 
+	background-color: #fff;
+	padding: .5em;
+	
+}
