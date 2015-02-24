@@ -13,6 +13,7 @@ $form.on('submit', function (e)
 	//create a button for each list item
 	var $button = $('<button>');
 	$button.html('X');
+	$button.addClass ('check');
 	//add the button event
 	$button.on('click', function () { 
 	$li.remove();	

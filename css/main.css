@@ -46,15 +46,18 @@ body {
 }
 
 .todo { 
-	height: 3.25em;
+	height: 2.25em;
 	border: 2px solid #9B9B9B;
 	width: 70%;
+	font-size: 1em;
+	font-family: Georgia, serif;
 }
 
 h2 { 
 	display: inline-block;
 	font-weight: lighter;
 	font-family: Georgia, serif;
+	font-size: 1.25em;
 }
 
 .strikethrough { 
@@ -62,4 +65,11 @@ h2 {
 	color: #E0E0E0;
 }
 
-
+.check { 
+	background-color:  #F0F0F0;
+	border: 1px solid #C8C8C8;
+	border-radius: 5px;
+	height: 2.75em;
+	width: 2em;
+	color: #C8C8C8   
+}
