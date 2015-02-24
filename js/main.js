@@ -36,10 +36,6 @@ $form.on('submit', function (e)
 	
 	//add list item to list
 	$added.append($li);	
-
-	
-
-
 }
 );
 
