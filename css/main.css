@@ -8,27 +8,30 @@ html {
 
 body { 
  margin: 0;	
+	background-color: #E8E8E8;	
 }
 
 .pagestyle { 
-	border: 2px solid grey;
+	border: 2px solid #D0D0D0 ;
 	border-radius: 15px;
 	margin: 3em;
 }
 
 .list { 
 	list-style-type: none;
+	background-color: #fff;
 }
 
 .title { 
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-family: Georgia, serif; 
 	display: block;
 	padding-bottom: .25em;
+	text-align: center;
 }
 
 .grey { 
-	background-color: #e3e3e3;
+	background-color: #F0F0F0;
 	padding: 2em;
 	border-radius: 15px 15px 0 0 ;
 }
@@ -45,6 +48,7 @@ body {
 .todo { 
 	height: 3.25em;
 	border: 2px solid #9B9B9B;
+	width: 70%;
 }
 
 h2 { 
@@ -55,11 +59,7 @@ h2 {
 
 .strikethrough { 
 	text-decoration:line-through;
-	color: grey;
+	color: #E0E0E0;
 }
 
-.white { 
-	background-color: #fff;
-	padding: .5em;
-	
-}
+
