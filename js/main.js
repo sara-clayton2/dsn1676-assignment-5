@@ -1,25 +1,38 @@
 var $form = $('.form');
 var $todo = $('.todo');
 var $added = $('.added');
+var $button = $('.addbutton');
+//var $remove = $('.remove');
 
-$form.on('submit', function (e) {
-e.preventDefault();	
-var $li = $('<li>');
-var $button = $('<button>');
-		
+
+
+$form.on('submit', function (e) 
+{
+	e.preventDefault();	
+	var $li = $('<li>');
+	var $button = $('<button>');
 	
-var todoValue = $todo.val(); 	
-var $todoH2 = $('<h2>').html($todo.val());
-
+	$button.on('click', function () { 
+	$li.remove();	
+	});	
 	
 	
-$li.append($todoH2);	
-$added.append($li);	
-$li.append($button);	
+	var todoValue = $todo.val(); 	
+	var $todoH2 = $('<h2>').html($todo.val());
+	$todoH2.append($button);
+				   
+				   
+	//$todoH2.append($remove);
 
-$button.addClass('addbutton');
 
- 	
-});
+	$li.append($todoH2);	
+	
+	$added.append($li);	
+
+	
+
+
+}
+);
 
 
